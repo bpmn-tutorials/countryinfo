@@ -2,11 +2,15 @@
 
 ## Build
 
+```
 mvn clean install
+```
 
 ## Run
 
+```
 mvn spring-boot:run
+```
 
 default port is set to 8082. You can change it in application.properties
 
