@@ -48,3 +48,11 @@ You should get response
 ```
 
 (not formatted tho ;) )
+
+## How to get the WSDL?
+
+When your app is running you can get the wsdl from:
+
+```
+http://localhost:8082/ws/countries.wsdl
+```
