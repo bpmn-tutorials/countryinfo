@@ -8,6 +8,7 @@
 
 package org.countryinfo.springsoap.gen;
 
+import java.io.Serializable;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -43,7 +44,7 @@ import javax.xml.bind.annotation.XmlType;
     "capital",
     "currency"
 })
-public class Country {
+public class Country implements Serializable {
 
     @XmlElement(required = true)
     protected String name;
