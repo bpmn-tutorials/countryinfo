@@ -1,4 +1,5 @@
 # Countrinfo soap web service
+Repository used for testing Service Task in Business Central. You can find test Business Central repository here: https://github.com/bpmn-tutorials/Imports
 
 ## Build
 
